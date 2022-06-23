@@ -1,0 +1,300 @@
+Package: formatters
+Version: 0.3.1
+Depends: methods, R (>= 2.10)
+Imports: htmltools
+Suggests: dplyr, testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 6f840cd96877ec2ddc7d2e2b4db92bb3
+NeedsCompilation: no
+
+Package: ggplot2.utils
+Version: 0.1.4.9004
+Depends: ggplot2 (>= 3.3.0), R (>= 3.6)
+Imports: EnvStats, GGally, ggpp
+Suggests: dplyr, lifecycle, testthat (>= 2.0), tibble
+License: Apache License 2.0 | file LICENSE
+MD5sum: 5eb806dca96fbcff1e6ad6edd0b48d7f
+NeedsCompilation: no
+
+Package: goshawk
+Version: 0.1.13
+Depends: dplyr, R (>= 3.6)
+Imports: checkmate, cowplot, ggnewscale, ggplot2, grDevices, grid,
+        magrittr, mcr, rlang, stringr
+Suggests: scda (>= 0.1.3), scda.2021 (>= 0.1.3), testthat (>= 2.0),
+        tidyr
+License: Apache License 2.0 | file LICENSE
+MD5sum: 540bf849b07550065bbd7b8cfc17b48b
+NeedsCompilation: no
+
+Package: hermes
+Version: 0.99.5.9004.1
+Depends: ggfortify, R (>= 3.5), SummarizedExperiment (>= 1.16)
+Imports: assertthat, Biobase, BiocGenerics, biomaRt, checkmate (>=
+        2.1), circlize, ComplexHeatmap, DESeq2, dplyr, edgeR, EnvStats,
+        forcats, GenomicRanges, ggplot2, ggrepel (>= 0.9), IRanges,
+        lifecycle, limma, magrittr, matrixStats, methods,
+        MultiAssayExperiment, purrr, R6, Rdpack, rlang, S4Vectors,
+        stats, tidyr, utils
+Suggests: BiocStyle, DelayedArray, DT, grid, httr, knitr, rmarkdown,
+        statmod, testthat (>= 2.0), vdiffr
+License: Apache License 2.0 | file LICENSE
+MD5sum: 2b7f8a3e898d0863f311d56dbd0a3c53
+NeedsCompilation: no
+
+Package: osprey
+Version: 0.1.14
+Depends: dplyr (>= 0.8.0), ggplot2 (>= 2.0.0), R (>= 3.6)
+Imports: checkmate, cowplot, DescTools, grDevices, grid, gridExtra,
+        gtable, rlang, stats, stringr, tibble, tidyr (>= 1.0.0)
+Suggests: knitr, scda (>= 0.1.3), scda.2021 (>= 0.1.3), tern (>=
+        0.7.8), testthat (>= 2.0)
+License: Apache License 2.0 | file LICENSE
+MD5sum: 2adb2491bf646b16dace2321a88734f1
+NeedsCompilation: no
+
+Package: random.cdisc.data
+Version: 0.3.13
+Depends: R (>= 3.6)
+Imports: checkmate, dplyr, magrittr, rlang, tibble, tidyr, yaml
+Suggests: knitr, rmarkdown, testthat (>= 0.2)
+License: Apache License 2.0 | file LICENSE
+MD5sum: 5a9d76c9bf3bceae5a3942cef434c52b
+NeedsCompilation: no
+
+Package: rtables
+Version: 0.5.1.2
+Depends: methods, magrittr, formatters (>= 0.3.0), R (>= 2.10)
+Imports: stats, htmltools, grid
+Suggests: dplyr, tibble, tidyr, testthat, xml2, knitr, rmarkdown,
+        flextable, officer
+License: Apache License 2.0 | file LICENSE
+MD5sum: b886489770a6e9fbb91fb9f67ddc3ef7
+NeedsCompilation: no
+
+Package: scda
+Version: 0.1.3
+Depends: R (>= 3.6)
+Imports: utils
+Suggests: scda.2021, scda.2022
+License: Apache License 2.0 | file LICENSE
+MD5sum: ea199fd6b393c1ec9bbab8de6772368a
+NeedsCompilation: no
+
+Package: scda.2021
+Version: 0.1.3
+Depends: R (>= 3.6)
+License: Apache License 2.0 | file LICENSE
+MD5sum: 41b181f95b35e4be43d0ff919b4cd2c6
+NeedsCompilation: no
+
+Package: scda.2022
+Version: 0.1.1
+Depends: R (>= 3.6)
+License: Apache License 2.0 | file LICENSE
+MD5sum: 467a5b2ef1d3e991588b1c6f57787dd7
+NeedsCompilation: no
+
+Package: teal
+Version: 0.11.1
+Depends: R (>= 4.0), shiny, teal.data (>= 0.1.1), teal.transform (>=
+        0.1.1)
+Imports: checkmate, lifecycle, logger (>= 0.2.0), magrittr, methods,
+        rlang, shinyjs, stats, styler, teal.code (>= 0.1.1),
+        teal.logger (>= 0.1.0), teal.reporter (>= 0.1.0), teal.slice
+        (>= 0.1.1), utils
+Suggests: covr, dplyr, knitr, MultiAssayExperiment, R6, rmarkdown, scda
+        (>= 0.1.3), scda.2021 (>= 0.1.3), teal.widgets (>= 0.1.1),
+        testthat (>= 2.0), withr
+License: Apache License 2.0 | file LICENSE
+MD5sum: 2e80379038caf0b1985ebad195012139
+NeedsCompilation: no
+
+Package: teal.code
+Version: 0.1.1
+Depends: R (>= 4.0)
+Imports: checkmate, crayon, lifecycle, R6, shiny, styler, teal.widgets
+        (>= 0.1.1)
+Suggests: knitr, rmarkdown, testthat (>= 2.0)
+License: Apache License 2.0 | file LICENSE
+MD5sum: 467bdb5d8884889d90c3888a5ae05de6
+NeedsCompilation: no
+
+Package: teal.data
+Version: 0.1.1
+Depends: R (>= 4.0), shiny
+Imports: checkmate, digest, formatters (>= 0.3.1), lifecycle, logger
+        (>= 0.2.0), methods, R6, rlang, shinyjs, stats, teal.logger (>=
+        0.1.0), utils, yaml
+Suggests: dplyr, knitr, magrittr, MultiAssayExperiment, readr,
+        reticulate (>= 1.22), rmarkdown, scda (>= 0.1.3), scda.2021 (>=
+        0.1.3), SummarizedExperiment, testthat (>= 2.0)
+License: Apache License 2.0 | file LICENSE
+MD5sum: 004dac9b3c983eedc9770e44db19cc40
+NeedsCompilation: no
+
+Package: teal.goshawk
+Version: 0.1.13
+Depends: goshawk (>= 0.1.13), R (>= 3.6), shiny, teal (>= 0.11.1)
+Imports: checkmate, colourpicker, dplyr, DT, ggplot2, grDevices, logger
+        (>= 0.2.0), methods, rlang, shinyjs, stats, teal.code (>=
+        0.1.1), teal.logger (>= 0.1.0), teal.transform (>= 0.1.1),
+        teal.widgets (>= 0.1.1), tidyr
+Suggests: knitr, rmarkdown, scda (>= 0.1.3), scda.2021 (>= 0.1.3),
+        stringr, tern (>= 0.7.8), testthat (>= 2.0), utils
+License: Apache License 2.0 | file LICENSE
+MD5sum: 842f93f4ab8ee247aea933b5fb77eab3
+NeedsCompilation: no
+
+Package: teal.logger
+Version: 0.1.0
+Depends: R (>= 3.6)
+Imports: glue, lifecycle, logger (>= 0.2.0), shiny, withr
+Suggests: knitr, rmarkdown, testthat (>= 2.0)
+License: Apache License 2.0 | file LICENSE
+MD5sum: 378d1c7a5a9c881516bf946244eff410
+NeedsCompilation: no
+
+Package: teal.modules.clinical
+Version: 0.8.13
+Depends: R (>= 3.6), teal (>= 0.11.1), tern (>= 0.7.8)
+Imports: assertthat, broom, checkmate, dplyr, DT, formatters (>=
+        0.3.1), ggplot2, ggrepel, grid, kableExtra, logger (>= 0.2.0),
+        magrittr, methods, rlang, rmarkdown, rtables (>= 0.5.1),
+        scales, shiny, shinyjs, shinyWidgets, stats, styler, teal.code
+        (>= 0.1.1), teal.logger (>= 0.1.0), teal.transform (>= 0.1.1),
+        teal.widgets (>= 0.1.1), tern.mmrm (>= 0.1.1), tidyr, utils,
+        vistime
+Suggests: forcats, knitr, scda (>= 0.1.3), scda.2021 (>= 0.1.3),
+        teal.data (>= 0.1.1), testthat (>= 2.0)
+License: Apache License 2.0 | file LICENSE
+MD5sum: f243b39c8beca7aa6d372220581ec8aa
+NeedsCompilation: no
+
+Package: teal.modules.general
+Version: 0.2.14
+Depends: ggmosaic (>= 0.3.0), ggplot2, magrittr, R (>= 3.6), shiny,
+        shinyTree, teal (>= 0.11.1)
+Imports: broom, checkmate, colourpicker, digest, dplyr, DT, forcats,
+        ggExtra, ggpmisc (>= 0.4.3), ggpp, goftest, grid, gridExtra,
+        htmlwidgets, jsonlite, lattice, logger (>= 0.2.0), MASS,
+        methods, rlang, rtables (>= 0.5.1), scales, shinyjs,
+        shinyWidgets, sparkline, stats, stringr, teal.code (>= 0.1.1),
+        teal.logger (>= 0.1.0), teal.slice (>= 0.1.1), teal.transform
+        (>= 0.1.1), teal.widgets (>= 0.1.1), tern (>= 0.7.8), tibble,
+        tidyr, tidyselect, utils
+Suggests: knitr, rmarkdown, scda.2021 (>= 0.1.3), scda (>= 0.1.3),
+        teal.data (>= 0.1.1), testthat (>= 2.0)
+License: Apache License 2.0 | file LICENSE
+MD5sum: e48e45f87ca277dfa77ab50e266fce6f
+NeedsCompilation: no
+
+Package: teal.modules.hermes
+Version: 0.1.3
+Depends: ggplot2, R (>= 3.6), shiny, teal (>= 0.11.1)
+Imports: checkmate, DT, edgeR, forcats, hermes (>= 0.99.5), lifecycle,
+        logger (>= 0.2.0), MultiAssayExperiment, rtables (>= 0.5.1),
+        S4Vectors, scda (>= 0.1.3), shinyRadioMatrix (>= 0.2.1),
+        shinyWidgets, stats, stringr, SummarizedExperiment, teal.data
+        (>= 0.1.1), teal.logger (>= 0.1.0), teal.widgets (>= 0.1.1),
+        tern (>= 0.7.8)
+Suggests: covr, dplyr, globals, knitr, matrixStats, R6, rvest,
+        shinytest (>= 1.5.0), testthat (>= 2.0)
+License: Apache License 2.0 | file LICENSE
+MD5sum: ed5bb941a50c4c8b3c40e2a57e94426a
+NeedsCompilation: no
+
+Package: teal.osprey
+Version: 0.1.14
+Depends: osprey (>= 0.1.14), R (>= 3.6), shiny, teal (>= 0.11.1)
+Imports: checkmate, dplyr, formatters (>= 0.3.1), ggplot2, logger (>=
+        0.2.0), purrr, teal.code (>= 0.1.1), teal.logger (>= 0.1.0),
+        teal.widgets (>= 0.1.1), tern (>= 0.7.8), tidyr
+Suggests: knitr, rmarkdown, scda.2021 (>= 0.1.3), scda (>= 0.1.3),
+        teal.data (>= 0.1.1), testthat (>= 2.0)
+License: Apache License 2.0 | file LICENSE
+MD5sum: ad7a712b9536ae53a596abaf52c1da71
+NeedsCompilation: no
+
+Package: teal.reporter
+Version: 0.1.0
+Imports: checkmate, grid, knitr, lifecycle, R6, rmarkdown, shiny,
+        shinyWidgets, yaml, zip
+Suggests: DT, ggplot2, lattice, png, rtables (>= 0.5.1), testthat
+License: Apache License 2.0 | file LICENSE
+MD5sum: 08c81cb4772f031b62c6eaed2cccb590
+NeedsCompilation: no
+
+Package: teal.slice
+Version: 0.1.1
+Depends: R (>= 4.0), shiny
+Imports: checkmate, dplyr, ggplot2, grDevices, lifecycle, logger (>=
+        0.2.0), methods, R6, shinyjs, shinyWidgets (>= 0.5.0), stats,
+        teal.data (>= 0.1.1), teal.logger (>= 0.1.0), teal.widgets (>=
+        0.1.1)
+Suggests: formatters (>= 0.3.1), knitr, MultiAssayExperiment,
+        rmarkdown, scda (>= 0.1.3), scda.2021 (>= 0.1.3),
+        SummarizedExperiment, testthat (>= 2.0), utils
+License: Apache License 2.0 | file LICENSE
+MD5sum: 391a1233a167050a0d7a4136e90bef36
+NeedsCompilation: no
+
+Package: teal.transform
+Version: 0.1.1
+Depends: magrittr, R (>= 3.6)
+Imports: checkmate, dplyr, formatters (>= 0.3.1), lifecycle, logger (>=
+        0.2.0), methods, rlang, shiny, shinyjs, stats, teal.code (>=
+        0.1.1), teal.data (>= 0.1.1), teal.logger (>= 0.1.0),
+        teal.slice (>= 0.1.1), teal.widgets (>= 0.1.1), tidyr,
+        tidyselect
+Suggests: knitr, rmarkdown, scda.2021 (>= 0.1.3), scda (>= 0.1.3),
+        shinytest, testthat (>= 2.0)
+License: Apache License 2.0 | file LICENSE
+MD5sum: 00651015292f43b51e88af8f340e283e
+NeedsCompilation: no
+
+Package: teal.widgets
+Version: 0.1.1
+Depends: R (>= 3.6)
+Imports: checkmate, ggplot2, graphics, lifecycle, methods, rtables (>=
+        0.5.1), shiny, shinyjs, shinyWidgets
+Suggests: knitr, magrittr, rmarkdown, testthat (>= 2.0), withr
+License: Apache License 2.0 | file LICENSE
+MD5sum: 2dd687f2b48fed129570a3cccf894e79
+NeedsCompilation: no
+
+Package: tern
+Version: 0.7.8
+Depends: R (>= 3.6), rtables (>= 0.5.1)
+Imports: assertthat, broom, car, checkmate, cowplot, dplyr, emmeans (>=
+        1.4.5), forcats, formatters (>= 0.3.1), ggplot2, grid,
+        gridExtra, gtable, labeling, lifecycle, magrittr, methods,
+        rlang, scales, stats, survival (>= 3.1-11), tibble, tidyr,
+        utils
+Suggests: knitr, lattice, rmarkdown, scda (>= 0.1.3), scda.2022 (>=
+        0.1.1), stringr, testthat (>= 2.0)
+License: Apache License 2.0 | file LICENSE
+MD5sum: 43e79b4594d520e30fe2a01347986e22
+NeedsCompilation: no
+
+Package: tern.mmrm
+Version: 0.1.1
+Depends: R (>= 3.6), tern (>= 0.7.8)
+Imports: assertthat, dfoptim, dplyr, emmeans (>= 1.4.5), formatters (>=
+        0.3.1), generics, ggplot2, lme4 (>= 1.1-21), lmerTest (>=
+        3.1-1), magrittr, optimx, parallel, rlang, rtables (>= 0.5.1),
+        stats, utils
+Suggests: broom, knitr, Matrix, rmarkdown, testthat (>= 2.0)
+License: Apache License 2.0 | file LICENSE
+MD5sum: 5501bf34a23927e4297dc6b4015b372e
+NeedsCompilation: no
+
+Package: tern.rbmi
+Version: 0.1.0
+Depends: R (>= 3.6), rbmi, tern (>= 0.7.8)
+Imports: broom, checkmate, formatters (>= 0.3.1), lifecycle, magrittr,
+        rtables (>= 0.5.1)
+Suggests: dplyr, knitr, Matrix, rmarkdown, testthat (>= 2.0), tidyr
+License: MIT + file LICENSE
+MD5sum: 0dd28f904ab77dd157f3b4d583be12b0
+NeedsCompilation: no
