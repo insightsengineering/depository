@@ -15,7 +15,7 @@ options(
 )
 ```
 
-Nest, assuming you want to install the `teal` package, simply run this in the R session:
+Next, assuming you want to install the `teal` package, simply run this in the R session:
 
 ```R
 install.packages("teal")
