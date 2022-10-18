@@ -4,12 +4,22 @@ A CRAN-like package repository for previously released R packages originating fr
 
 ## Usage
 
-Set the repository options in R to point to this repository to point to the `2022_06_09` release, then run the following in an R session:
+The following releases are available in this repository:
+
+- [2022_06_09](./2022_06_09/src/contrib/)
+- [2022_10_13](./2022_06_09/src/contrib/)
+
+Set the repository options in R to point to a specific release in this repository:
 
 ```R
+# Assuming you want to use the 2022_10_13 release
+release_date <- "2022_10_13"
 options(
     repos = c(
-        insightsengineering = "https://insightsengineering.github.io/depository/2022_06_09",
+        insightsengineering = paste0(
+            "https://insightsengineering.github.io/depository/",
+            release_date
+        ),
         CRAN = "https://cloud.r-project.org/"
     )
 )
