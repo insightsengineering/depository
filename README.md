@@ -2,6 +2,8 @@
 
 A CRAN-like package repository for previously released R packages originating from this organization.
 
+**⚠️ Note**: This repository is a _temporary solution_ and a placeholder for packages that have not been published to CRAN yet. All of these packages will eventually be published to CRAN. Also, the _latest development_ versions of these packages are available on the [Pharmaverse r-universe repository](https://pharmaverse.r-universe.dev/ui).
+
 ## Usage
 
 The following releases are available in this repository:
