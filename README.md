@@ -9,7 +9,7 @@ A CRAN-like package repository for previously released R packages originating fr
 The following releases are available in this repository:
 
 - [2022_06_09](./2022_06_09/src/contrib/)
-- [2022_10_13](./2022_06_09/src/contrib/)
+- [2022_10_13](./2022_10_13/src/contrib/)
 
 Set the repository options in R to point to a specific release in this repository:
 
